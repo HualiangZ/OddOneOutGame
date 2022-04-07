@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HideAnimalScene.unity
     guid: db5b587c5504ae346b4cdb13927eec64
+  - enabled: 1
+    path: Assets/Scenes/ShowAimalScene.unity
+    guid: f923a1ec6e94f514193bf0ea30bf9021
   m_configObjects: {}

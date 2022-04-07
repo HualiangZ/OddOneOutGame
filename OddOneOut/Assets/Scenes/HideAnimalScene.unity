@@ -381,9 +381,8 @@ GameObject:
   - component: {fileID: 1356204489}
   - component: {fileID: 1356204488}
   - component: {fileID: 1356204487}
-  - component: {fileID: 1356204490}
   m_Layer: 0
-  m_Name: Continue
+  m_Name: ShowAnimal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -406,7 +405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 15}
+  m_AnchoredPosition: {x: 0, y: 84}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1356204487
@@ -455,7 +454,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2140100704}
         m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
-        m_MethodName: textChange
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -503,20 +502,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356204485}
   m_CullTransparentMesh: 1
---- !u!114 &1356204490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356204485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8af3795ffdc36c04785216a2d1ad78e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  changingText: {fileID: 1275814026}
-  x: 0
 --- !u!1 &1955398362
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +572,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Show Animal
 --- !u!222 &1955398365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -694,4 +679,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changingText: {fileID: 1275814026}
-  x: 0
