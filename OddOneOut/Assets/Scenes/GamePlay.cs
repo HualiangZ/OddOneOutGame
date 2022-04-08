@@ -45,10 +45,11 @@ public class GamePlay : MonoBehaviour
             
     }
 
-
+    //comment
+    //comment
     public void ReadStringInput(string s)
     {
-        players.Add(s);
+        players.Add(s);//comment
 
         //used for testing
         //------------------------------
