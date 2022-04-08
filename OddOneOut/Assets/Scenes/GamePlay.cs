@@ -49,7 +49,7 @@ public class GamePlay : MonoBehaviour
     //comment
     public void ReadStringInput(string s)
     {
-        players.Add(s);//comment
+        players.Add(s);
 
         //used for testing
         //------------------------------
