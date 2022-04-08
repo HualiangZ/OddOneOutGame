@@ -21,10 +21,13 @@ public class GamePlay : MonoBehaviour
 
     //}
 
+    //public InputField mainInputField;
+
     void Awake()    
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
+        
 
         if (players.Count != 0 && sceneName == "HideAnimalScene" )
             changingText.text = players[x];
@@ -49,6 +52,7 @@ public class GamePlay : MonoBehaviour
     //comment
     public void ReadStringInput(string s)
     {
+        //mainInputField.DeactivateInputField();
         players.Add(s); //new comment
 
         //used for testing
