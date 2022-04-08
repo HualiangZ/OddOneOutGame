@@ -19,6 +19,8 @@ public class GamePlay : MonoBehaviour
     //use the list to output the players name in to the textfield called 'PlayerNametxt' in 'HideAnimalScene'
 
 
+    //public InputField mainInputField;
+
     void Awake()    
     {
         Scene currentScene = SceneManager.GetActiveScene();
@@ -69,6 +71,7 @@ public class GamePlay : MonoBehaviour
     //comment
     public void ReadStringInput(string s)
     {
+        //mainInputField.DeactivateInputField();
         players.Add(s); //new comment
 
         //used for testing

@@ -2891,6 +2891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changingText: {fileID: 0}
+  mainInputField: {fileID: 637465352}
 --- !u!1 &2055108339
 GameObject:
   m_ObjectHideFlags: 0
