@@ -63,6 +63,9 @@ public class GamePlay : MonoBehaviour
         {
             x = x + 1;
             UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+        }else if (EventSystem.current.currentSelectedGameObject.name == "Continue" && x == players.Count - 1)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(5);
         }
             
     }

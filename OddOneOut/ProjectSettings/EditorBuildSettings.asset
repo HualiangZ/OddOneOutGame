@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShowAimalScene.unity
     guid: f923a1ec6e94f514193bf0ea30bf9021
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: fe81070181570714a839693268569700
+  - enabled: 1
+    path: Assets/Scenes/GamePlayScene.unity
+    guid: 9835f4c57c925fa43bca2dfe8705f567
   m_configObjects: {}
