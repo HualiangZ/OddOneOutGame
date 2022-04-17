@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GamePlayScene.unity
     guid: 9835f4c57c925fa43bca2dfe8705f567
+  - enabled: 1
+    path: Assets/Scenes/VoteScene.unity
+    guid: 25efa394db8b1fc489edf98802a6fb4f
+  - enabled: 1
+    path: Assets/Scenes/MostPlayerVoteScene.unity
+    guid: ab19ef99d7a940a44b782797990b63b3
   m_configObjects: {}
