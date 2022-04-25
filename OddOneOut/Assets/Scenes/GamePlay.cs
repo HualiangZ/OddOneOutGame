@@ -66,13 +66,6 @@ public class GamePlay : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
-        //generate randome animal and imposter 
-        while (con == false)
-        {
-            imposter = Random.Range(0, p.Count);
-            animal = Random.Range(0, animals.Count);
-            con = true;
-        }
 
         //making sure this is the right player to show if they ar animal or imposter
         if (p.Count != 0 && sceneName == "HideAnimalScene")
@@ -106,6 +99,7 @@ public class GamePlay : MonoBehaviour
                 if(x < p[i].getVote())
                 {
                     player = i;
+                    x = p[i].getVote();
                 }
 
             }
@@ -149,6 +143,15 @@ public class GamePlay : MonoBehaviour
         }
        
     }
+
+    //change scene to HideAnimal and select random imposter and animal
+    public void ChangeHideAnimalScene()
+    {
+        imposter = Random.Range(0, p.Count);
+        animal = Random.Range(0, animals.Count);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
+
 
     //change Scene when all players have shown their role
     public void ChangeScene()

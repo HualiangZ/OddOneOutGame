@@ -2096,13 +2096,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1380960285}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MovingToScene
-        m_Mode: 3
+        m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
+        m_MethodName: ChangeHideAnimalScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2154,9 +2154,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1380960280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c08c75f3e6c64d45bd96f9140e90518, type: 3}
+  m_Script: {fileID: 11500000, guid: 8af3795ffdc36c04785216a2d1ad78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changingText: {fileID: 0}
+  impos: {fileID: 0}
+  v: {fileID: 0}
+  voting: {fileID: 0}
 --- !u!1 &1580178228
 GameObject:
   m_ObjectHideFlags: 0
@@ -3095,6 +3099,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changingText: {fileID: 0}
   impos: {fileID: 0}
+  v: {fileID: 0}
+  voting: {fileID: 0}
 --- !u!114 &1977445570
 MonoBehaviour:
   m_ObjectHideFlags: 0
