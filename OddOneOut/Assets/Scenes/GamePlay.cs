@@ -48,7 +48,7 @@ public class GamePlay : MonoBehaviour
     public Text impos;//imposter text
     public Text v; //the most vote player text
     public Text voting;//who is voting text
-
+    public Text DisplayListText;
 
     static public int x = 0;//to keep track of players in showing animal 
     static public int y = 0;//keep track players on who is voting
@@ -113,6 +113,14 @@ public class GamePlay : MonoBehaviour
         if (sceneName == "VoteScene")
         {
             voting.text = p[y].getName();
+
+            ////////////27/04/2022////////////
+            for (int i = 0; i <= p.Count - 1; i++)
+            {
+                b = (p[i].getName());
+                DisplayListText.text += b + '\n';
+            }
+            ////////////27/04/2022////////////
         }
 
     }
