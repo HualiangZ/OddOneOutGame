@@ -49,11 +49,15 @@ public class GamePlay : MonoBehaviour
     public Text v; //the most vote player text
     public Text voting;//who is voting text
     public Text DisplayListText;
+    public Sprite dog;
+    public Sprite goat;
+    public Image animal_Image;
 
     static public int x = 0;//to keep track of players in showing animal 
     static public int y = 0;//keep track players on who is voting
     static public List<players> p = new List<players>(); 
-    static public List<string> animals = new List<string>() { "Mouse", "Cat", "Dog", "Lion"};
+    static public List<string> animals = new List<string>() {"goat", "dog"};
+    static public List<Sprite> animalImages = new List<Sprite>();
     static public bool con = false;
     static public int imposter;// rng imposter on number gen
     static public int animal;//rng animal on number gen
@@ -69,15 +73,20 @@ public class GamePlay : MonoBehaviour
 
         //making sure this is the right player to show if they ar animal or imposter
         if (p.Count != 0 && sceneName == "HideAnimalScene")
+        {
             //string player = 
             changingText.text = "Is This " + p[x].getName();
-
+            animalImages.Add(goat);
+            animalImages.Add(dog);
+        }
 
         //show the player if they are animal or imposter
         if (sceneName == "ShowAimalScene")
         {
+            
+           
 
-
+                
             if (imposter == x)
             {
                 impos.text = "You are the imposter.";
@@ -85,6 +94,7 @@ public class GamePlay : MonoBehaviour
             else
             {
                 impos.text = "The Animal Is " + animals[animal];
+                animal_Image.sprite = animalImages[animal];
             }
 
         }
@@ -117,7 +127,7 @@ public class GamePlay : MonoBehaviour
             ////////////27/04/2022////////////
             for (int i = 0; i <= p.Count - 1; i++)
             {
-                b = (p[i].getName());
+               string b = (p[i].getName());
                 DisplayListText.text += b + '\n';
             }
             ////////////27/04/2022////////////
