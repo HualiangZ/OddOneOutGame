@@ -725,4 +725,10 @@ MonoBehaviour:
   DisplayListText: {fileID: 0}
   dog: {fileID: 21300000, guid: e4b6fc745ac7e8542a2799decaeda675, type: 3}
   goat: {fileID: 21300000, guid: 997fe8fb9f042164fbc306d7204cdb01, type: 3}
+  rhino: {fileID: 21300000, guid: e330b6a73d73f0e4d91ebfe9278324c3, type: 3}
+  elephant: {fileID: 21300000, guid: b5e890fcfade0c54da9fd2dd591c2ff5, type: 3}
+  giraffe: {fileID: 21300000, guid: b8e21f6891dd4504e9c24a37772ce605, type: 3}
+  donkey: {fileID: 21300000, guid: 77d0dda6030c5d3469dcc2d2e7c232e1, type: 3}
+  cheetah: {fileID: 21300000, guid: 5bc53f894195e6e40ba319bd15939db3, type: 3}
+  imposter_image: {fileID: 0}
   animal_Image: {fileID: 0}

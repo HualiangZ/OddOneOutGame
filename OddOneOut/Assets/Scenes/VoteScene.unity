@@ -225,6 +225,15 @@ MonoBehaviour:
   v: {fileID: 0}
   voting: {fileID: 1471720203}
   DisplayListText: {fileID: 534862443}
+  dog: {fileID: 0}
+  goat: {fileID: 0}
+  rhino: {fileID: 0}
+  elephant: {fileID: 0}
+  giraffe: {fileID: 0}
+  donkey: {fileID: 0}
+  cheetah: {fileID: 0}
+  imposter_image: {fileID: 0}
+  animal_Image: {fileID: 0}
 --- !u!1 &449945155
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,8 +409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000064442, y: -17.352}
-  m_SizeDelta: {x: 600.24, y: 180.7039}
+  m_AnchoredPosition: {x: 0.0000064442, y: -112.68022}
+  m_SizeDelta: {x: 600.24, y: 371.3604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534862443
 MonoBehaviour:
@@ -425,10 +434,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 25
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -942,10 +951,10 @@ RectTransform:
   m_Father: {fileID: 449945156}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000033379, y: -183}
-  m_SizeDelta: {x: 161.4315, y: 54.3355}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.0000033379, y: 113}
+  m_SizeDelta: {x: 161.4315, y: 54.33551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787004325
 MonoBehaviour:

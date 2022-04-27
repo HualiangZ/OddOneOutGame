@@ -2164,6 +2164,12 @@ MonoBehaviour:
   DisplayListText: {fileID: 0}
   dog: {fileID: 0}
   goat: {fileID: 0}
+  rhino: {fileID: 0}
+  elephant: {fileID: 0}
+  giraffe: {fileID: 0}
+  donkey: {fileID: 0}
+  cheetah: {fileID: 0}
+  imposter_image: {fileID: 0}
   animal_Image: {fileID: 0}
 --- !u!1 &1580178228
 GameObject:
@@ -3108,6 +3114,12 @@ MonoBehaviour:
   DisplayListText: {fileID: 0}
   dog: {fileID: 21300000, guid: e4b6fc745ac7e8542a2799decaeda675, type: 3}
   goat: {fileID: 21300000, guid: 997fe8fb9f042164fbc306d7204cdb01, type: 3}
+  rhino: {fileID: 0}
+  elephant: {fileID: 0}
+  giraffe: {fileID: 0}
+  donkey: {fileID: 0}
+  cheetah: {fileID: 0}
+  imposter_image: {fileID: 0}
   animal_Image: {fileID: 0}
 --- !u!114 &1977445570
 MonoBehaviour:

@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -367,6 +367,12 @@ MonoBehaviour:
   DisplayListText: {fileID: 0}
   dog: {fileID: 21300000, guid: e4b6fc745ac7e8542a2799decaeda675, type: 3}
   goat: {fileID: 21300000, guid: 997fe8fb9f042164fbc306d7204cdb01, type: 3}
+  rhino: {fileID: 21300000, guid: e330b6a73d73f0e4d91ebfe9278324c3, type: 3}
+  elephant: {fileID: 21300000, guid: b5e890fcfade0c54da9fd2dd591c2ff5, type: 3}
+  giraffe: {fileID: 21300000, guid: b8e21f6891dd4504e9c24a37772ce605, type: 3}
+  donkey: {fileID: 21300000, guid: 77d0dda6030c5d3469dcc2d2e7c232e1, type: 3}
+  cheetah: {fileID: 21300000, guid: 5bc53f894195e6e40ba319bd15939db3, type: 3}
+  imposter_image: {fileID: 21300000, guid: b968a19ef883f794881c7a7ae55fc795, type: 3}
   animal_Image: {fileID: 315103518}
 --- !u!1 &1254219512
 GameObject:

@@ -51,12 +51,18 @@ public class GamePlay : MonoBehaviour
     public Text DisplayListText;
     public Sprite dog;
     public Sprite goat;
+    public Sprite rhino;
+    public Sprite elephant;
+    public Sprite giraffe;
+    public Sprite donkey;
+    public Sprite cheetah;
+    public Sprite imposter_image;
     public Image animal_Image;
 
     static public int x = 0;//to keep track of players in showing animal 
     static public int y = 0;//keep track players on who is voting
     static public List<players> p = new List<players>(); 
-    static public List<string> animals = new List<string>() {"goat", "dog"};
+    static public List<string> animals = new List<string>() {"goat", "dog", "rhino", "elephant", "giraffe", "donkey", "cheetah"};
     static public List<Sprite> animalImages = new List<Sprite>();
     static public bool con = false;
     static public int imposter;// rng imposter on number gen
@@ -78,18 +84,22 @@ public class GamePlay : MonoBehaviour
             changingText.text = "Is This " + p[x].getName();
             animalImages.Add(goat);
             animalImages.Add(dog);
+            animalImages.Add(rhino);
+            animalImages.Add(elephant);
+            animalImages.Add(giraffe);
+            animalImages.Add(donkey);
+            animalImages.Add(cheetah);
         }
 
         //show the player if they are animal or imposter
         if (sceneName == "ShowAimalScene")
         {
             
-           
-
                 
             if (imposter == x)
             {
                 impos.text = "You are the imposter.";
+                animal_Image.sprite = imposter_image;
             }
             else
             {
@@ -114,7 +124,7 @@ public class GamePlay : MonoBehaviour
 
             }
 
-            v.text = "You Voted For " + p[player].getName();
+            v.text = "Most voted Player " + p[player].getName();
             impos.text = "The Real Imposter Is " + p[imposter].getName();
         }
 
