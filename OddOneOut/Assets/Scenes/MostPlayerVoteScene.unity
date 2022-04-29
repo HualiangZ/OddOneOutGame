@@ -303,6 +303,16 @@ MonoBehaviour:
   impos: {fileID: 313330512}
   v: {fileID: 1707420853}
   voting: {fileID: 0}
+  DisplayListText: {fileID: 0}
+  dog: {fileID: 0}
+  goat: {fileID: 0}
+  rhino: {fileID: 0}
+  elephant: {fileID: 0}
+  giraffe: {fileID: 0}
+  donkey: {fileID: 0}
+  cheetah: {fileID: 0}
+  imposter_image: {fileID: 0}
+  animal_Image: {fileID: 0}
 --- !u!1 &1385719646
 GameObject:
   m_ObjectHideFlags: 0

@@ -64,7 +64,6 @@ public class GamePlay : MonoBehaviour
     static public List<players> p = new List<players>(); 
     static public List<string> animals = new List<string>() {"goat", "dog", "rhino", "elephant", "giraffe", "donkey", "cheetah"};
     static public List<Sprite> animalImages = new List<Sprite>();
-    static public bool con = false;
     static public int imposter;// rng imposter on number gen
     static public int animal;//rng animal on number gen
     //use the list to output the players name in to the textfield called 'PlayerNametxt' in 'HideAnimalScene'
@@ -143,6 +142,14 @@ public class GamePlay : MonoBehaviour
             ////////////27/04/2022////////////
         }
 
+        if (sceneName == "MostPlayerVoteScene")
+        {
+            p.Clear();
+            x = 0;
+            y = 0;
+
+        }
+
     }
 
     //add vote to player.
@@ -196,11 +203,12 @@ public class GamePlay : MonoBehaviour
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(5);
         }
-            
+
+
     }
 
-    //add player name to list
-    public void ReadStringInput(string s)
+        //add player name to list
+        public void ReadStringInput(string s)
     {
         //mainInputField.DeactivateInputField();
 
